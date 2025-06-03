@@ -1,0 +1,24 @@
+name: pest_detection_app
+description: Pest detection app with voice/image and Azure Speech integration
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  image_picker: ^1.1.2
+  flutter_tts: ^4.2.2
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.3.1
+  fonts:
+    - family: NotoSans
+    - family: NotoEmoji
+      fonts:
+        - asset: fonts/NotoSans-Regular.ttf
+        - asset: fonts/NotoSans-Bold.ttf
+        - asset: assets/fonts/NotoColorEmoji.ttf
+          weight: 700
+  
+        

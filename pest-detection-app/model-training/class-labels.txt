@@ -1,0 +1,4 @@
+aphid
+caterpillar
+healthy
+mite

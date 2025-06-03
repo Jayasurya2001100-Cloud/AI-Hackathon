@@ -1,0 +1,29 @@
+# Backend framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Machine Learning and Image Processing
+tensorflow>=2.17
+numpy==1.26.4
+pillow==10.3.0
+opencv-python==4.9.0.80
+
+# File uploads and async I/O
+python-multipart==0.0.9
+aiofiles==23.2.1
+
+# Streamlit for UI
+streamlit==1.32.0
+
+# Azure services
+azure-cognitiveservices-speech==1.34.0
+azure-identity==1.15.0
+
+# Azure OpenAI client (install using GitHub if not available on PyPI)
+# pip install git+https://github.com/Azure/azure-sdk-for-python.git@main#egg=azure-ai-openai&subdirectory=sdk/openai/azure-openai
+
+# Placeholder line for manual install of azure-ai-openai if PyPI fails
+azure-ai-openai==1.0.0b7
+
+# General utilities
+requests==2.31.0
