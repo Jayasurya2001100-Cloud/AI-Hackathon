@@ -7,18 +7,18 @@ import io
 
 
 # --- Azure OpenAI config ---
-AZURE_OPENAI_API_KEY = "52eSzqiaUyV3wDiXH3qx6ITFrVC6AcFPm9m17Ka9uRcQ4qQudYe1JQQJ99BCACYeBjFXJ3w3AAABACOG4H6h"
+AZURE_OPENAI_API_KEY = ""
 AZURE_OPENAI_ENDPOINT = "https://dsopenai007.openai.azure.com/"
 AZURE_OPENAI_DEPLOYMENT_NAME = "gpt-4o-mini"
 AZURE_OPENAI_API_VERSION = "2024-08-01-preview"
 
 # --- Azure Translator config ---
-AZURE_TRANSLATOR_KEY = "3kXjOXV1wPWlHf31gF9RJmAb7QGYnjcv5EH6LVb6ZEXoj98Lc1TpJQQJ99BFACYeBjFXJ3w3AAAbACOGi7dt"
+AZURE_TRANSLATOR_KEY = ""
 AZURE_TRANSLATOR_ENDPOINT = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0"
 BACKEND_URL = "http://127.0.0.1:8000/predict-image/"
 
 # --- Azure Speech Service config ---
-AZURE_SPEECH_KEY = "5YiHGkl9cDVsW2Xql6rYaYvrDTyaILfILgbR8Gvu0oi6CZ4kmtBAJQQJ99BEACYeBjFXJ3w3AAAYACOGAT1d"
+AZURE_SPEECH_KEY = ""
 AZURE_SERVICE_REGION = "eastus"  # Use the region where your Azure Speech service is deployed
 # --- OpenAI client setup ---
 openai.api_type = "azure"
